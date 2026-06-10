@@ -1,0 +1,27 @@
+{
+  "name": "@vindecodervehicle/browser",
+  "version": "1.0.0",
+  "description": "Official browser JavaScript SDK for the VIN Decoder Vehicle API",
+  "type": "module",
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": ["src"],
+  "scripts": {
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": ["vin", "vin-decoder", "vehicle", "automotive", "api", "sdk", "browser", "javascript"],
+  "author": "VIN Decoder Vehicle",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JoxMarkes/vindecodervehicle-js-sdk.git"
+  },
+  "homepage": "https://vindecodervehicle.com",
+  "bugs": {
+    "url": "https://github.com/JoxMarkes/vindecodervehicle-js-sdk/issues"
+  },
+  "sideEffects": false
+}
