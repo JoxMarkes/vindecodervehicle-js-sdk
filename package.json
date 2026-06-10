@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/JoxMarkes/vindecodervehicle-js-sdk/issues"
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
 }
